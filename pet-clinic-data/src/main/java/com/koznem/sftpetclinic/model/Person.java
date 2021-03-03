@@ -1,4 +1,4 @@
-package com.koznem.sfgpetclinic.model;
+package com.koznem.sftpetclinic.model;
 
 public class Person {
     private String firstName;
