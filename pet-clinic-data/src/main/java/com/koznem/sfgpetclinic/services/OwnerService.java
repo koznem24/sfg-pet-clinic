@@ -1,6 +1,6 @@
-package com.koznem.sftpetclinic.services;
+package com.koznem.sfgpetclinic.services;
 
-import com.koznem.sftpetclinic.model.Owner;
+import com.koznem.sfgpetclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 

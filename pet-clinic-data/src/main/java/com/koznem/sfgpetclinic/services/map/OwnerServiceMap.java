@@ -1,10 +1,12 @@
-package com.koznem.sftpetclinic.services.map;
+package com.koznem.sfgpetclinic.services.map;
 
-import com.koznem.sftpetclinic.model.Owner;
-import com.koznem.sftpetclinic.services.OwnerService;
+import com.koznem.sfgpetclinic.model.Owner;
+import com.koznem.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

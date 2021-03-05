@@ -1,11 +1,9 @@
 package com.koznem.sfgpetclinic.bootstrap;
 
-import com.koznem.sftpetclinic.model.Owner;
-import com.koznem.sftpetclinic.model.Vet;
-import com.koznem.sftpetclinic.services.OwnerService;
-import com.koznem.sftpetclinic.services.VetService;
-import com.koznem.sftpetclinic.services.map.OwnerServiceMap;
-import com.koznem.sftpetclinic.services.map.VetServiceMap;
+import com.koznem.sfgpetclinic.model.Owner;
+import com.koznem.sfgpetclinic.model.Vet;
+import com.koznem.sfgpetclinic.services.OwnerService;
+import com.koznem.sfgpetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -15,9 +13,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override

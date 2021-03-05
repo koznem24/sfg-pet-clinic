@@ -1,4 +1,4 @@
-package com.koznem.sftpetclinic.model;
+package com.koznem.sfgpetclinic.model;
 
 public class PetType extends BaseEntity {
     private String name;

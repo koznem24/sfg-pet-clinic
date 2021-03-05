@@ -1,10 +1,12 @@
-package com.koznem.sftpetclinic.services.map;
+package com.koznem.sfgpetclinic.services.map;
 
-import com.koznem.sftpetclinic.model.Pet;
-import com.koznem.sftpetclinic.services.PetService;
+import com.koznem.sfgpetclinic.model.Pet;
+import com.koznem.sfgpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
 
     @Override

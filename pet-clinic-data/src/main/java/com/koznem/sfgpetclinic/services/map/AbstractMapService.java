@@ -1,4 +1,4 @@
-package com.koznem.sftpetclinic.services.map;
+package com.koznem.sfgpetclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

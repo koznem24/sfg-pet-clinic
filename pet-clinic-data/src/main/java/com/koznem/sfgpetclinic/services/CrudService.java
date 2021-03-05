@@ -1,4 +1,4 @@
-package com.koznem.sftpetclinic.services;
+package com.koznem.sfgpetclinic.services;
 
 import java.util.Set;
 
