@@ -1,11 +1,11 @@
 package com.koznem.sftpetclinic.services.map;
 
 import com.koznem.sftpetclinic.model.Pet;
-import com.koznem.sftpetclinic.services.CrudService;
+import com.koznem.sftpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet,Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
@@ -31,4 +31,6 @@ public class PetServiceMap extends AbstractMapService<Pet,Long> implements CrudS
     public void deleleById(Long aLong) {
         super.deleteById(aLong);
     }
+
+
 }

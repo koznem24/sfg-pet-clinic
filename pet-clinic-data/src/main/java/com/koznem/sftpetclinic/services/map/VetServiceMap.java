@@ -1,11 +1,11 @@
 package com.koznem.sftpetclinic.services.map;
 
 import com.koznem.sftpetclinic.model.Vet;
-import com.koznem.sftpetclinic.services.CrudService;
+import com.koznem.sftpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
