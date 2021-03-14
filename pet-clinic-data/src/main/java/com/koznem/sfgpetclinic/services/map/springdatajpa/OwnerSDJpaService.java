@@ -1,4 +1,4 @@
-package com.koznem.sfgpetclinic.services.map;
+package com.koznem.sfgpetclinic.services.map.springdatajpa;
 
 import com.koznem.sfgpetclinic.model.Owner;
 import com.koznem.sfgpetclinic.repositories.OwnerRepository;
