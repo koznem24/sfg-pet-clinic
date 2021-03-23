@@ -31,7 +31,7 @@ public class SpecialityMapService extends AbstractMapService<Specialty, Long> im
     }
 
     @Override
-    public void deleleById(Long aLong) {
+    public void deleteById(Long aLong) {
         super.deleteById(aLong);
     }
 }
